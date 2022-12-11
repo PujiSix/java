@@ -1,11 +1,11 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-class ulang
+class mysql_con
 {
-  private static final String url = "jdbc:mysql://localhost:3306/sys";
-  private static final String user = "root";
-  private static final String password = "root";
+  private static final String url = "jdbc:mysql://localhost:3306/file_yang_dituju";
+  private static final String user = "username";
+  private static final String password = "password";
 
   public static void main(String args[])
   {
@@ -13,7 +13,7 @@ class ulang
      {
        Connection con = DriverManager.getConnection(url, user, password);
        System.out.println("JDBC & MySQL successfully connected");
-       System.out.println("By : http://sq.web.id");
+      
      }
     catch (Exception e)
      {
