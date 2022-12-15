@@ -1,0 +1,6 @@
+configuration linux vsCode
+
+json file (launch.json)
+"vmArgs": "--module-path /home/puji/Unduhan/java/javafx-sdk-19/lib --add-modules javafx.controls,javafx.fxml",
+
+untuk mengatasi error:JavaFX runtime components are missing, and are required to run this application
